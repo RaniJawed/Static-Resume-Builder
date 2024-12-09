@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rani Jawed - Resume</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f3;
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+            max-width: 900px;
+            background: #ffe4e9;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #ff6b81;
+        }
+
+        h1, h2 {
+            color: #ff6b81;
+            text-align: center;
+        }
+
+        .profile-picture {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #ff6b81;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            text-align: left;
+            color: #ff6b81;
+            font-size: 22px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 5px solid #ff6b81;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .contact {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            color: #ff6b81;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .skill-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .skill {
+            padding: 10px 15px;
+            background: #ff6b81;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+                border-bottom: 4px solid #ff6b81;
+            }
+
+            .profile-picture img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .skill {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 16px;
+                border-bottom: 3px solid #ff6b81;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-picture">
+            <img src="my-picture.jpg" alt="Rani Jawed">
+        </div>
+        <h1>Rani Jawed</h1>
+        <div class="contact">
+            <p>Phone: <a href="tel:03242230449">0324-2230449</a></p>
+            <p>Email: <a href="mailto:shaikhrj65@gmail.com">shaikhrj65@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/RaniJawed" target="_blank">RaniJawed</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Matriculation:</strong> SSC, BISE Karachi</li>
+                <li><strong>Intermediate:</strong> HSC, BISE MirpurKhas</li>
+                <li><strong>Masters:</strong> BISE NawabShah</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skill-box">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">TypeScript</span>
+                <span class="skill">Next.js</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Company:</strong> XYZ Pvt Ltd</li>
+                <li><strong>Role:</strong> Frontend Developer</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
